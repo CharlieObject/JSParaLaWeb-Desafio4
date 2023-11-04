@@ -1,0 +1,156 @@
+*{
+  width: 0;
+  height: 0;
+}
+
+
+
+
+
+
+
+/*       HTMLs      */
+
+
+/*   Navbar  */
+.body_index{
+  width: 99vw;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  font-style: italic;
+  padding-left: 15px;
+}
+.div_nav{
+  width: 95%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:   rgb(223, 220, 220);
+  
+}
+.div_nav_int_1{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.div_nav a{
+  color: black;
+  text-decoration: none;
+}
+h3{
+  width: 90%;
+  text-align: start;
+}
+.div_nav h4{
+  width: 10%;
+  cursor: pointer;
+  text-align: end;
+  padding-right: 25px;
+}
+.div_nav_int_2{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+
+
+
+
+
+
+
+
+/*    Main   */
+.div_h1{
+  width: 90%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div_h1 h1{
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  margin: 0;
+}
+.div_venta{
+  width: 90%;
+  height: 34%;
+  margin-top: 10px;
+  margin-bottom: 1%;
+  border: 2px solid rgb(171, 169, 169);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow-y: scroll;
+}
+.div_venta_int{
+  width: 32%;
+  height: 93%;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding-bottom: 15px;
+  background-color: rgb(223, 220, 220);;
+}
+.div_venta_int p{
+  width: 90%;
+  padding-left: 10px;
+}
+.div_venta_int h3{
+  width: 90%;
+  padding-left: 10px;
+}
+.div_venta_int img{
+  width: 100%;
+  height: 50%;
+}
+.div_boton{
+  width: 90%;
+  height: 5%;
+}
+.div_boton button{
+  width: 250px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.div_alquiler{
+  width: 90%;
+  height: 35%;
+  margin-top: 10px;
+  border: 2px solid rgb(171, 169, 169);
+  display: flex;
+}
+
+
+
+
+
+
+
+/*    Estilos a los iconos y mensajes de fumar y mascotas   */
+.verde{
+  color: green;
+}
+.rojo{
+  color: red;
+}
+.space{
+  margin-left: 20px;
+}
+
+
+
